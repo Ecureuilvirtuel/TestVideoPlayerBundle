@@ -1,0 +1,8 @@
+Acme\VideoBundle\Entity\Video:
+    type:  entity
+    table: video
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO

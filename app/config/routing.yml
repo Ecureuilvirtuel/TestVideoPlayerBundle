@@ -1,0 +1,10 @@
+video:
+    resource: "@VideoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
+
+litc_video_player:
+    resource: "@LITCVideoPlayerBundle/Resources/config/routing.yml"
